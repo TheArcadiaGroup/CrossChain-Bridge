@@ -39,6 +39,11 @@ require (
 	github.com/urfave/cli/v2 v2.3.0
 	golang.org/x/crypto v0.0.0-20201203163018-be400aefbc4c
 	gopkg.in/mgo.v2 v2.0.0-20190816093944-a6b53ec6cb22
+	github.com/TheArcadiaGroup/firod v0.22.0-beta.0.20210703102553-04e82d2a986a
+	github.com/TheArcadiaGroup/firoutil v1.0.3-0.20210703101837-07335443a41d
+	github.com/TheArcadiaGroup/firowallet/wallet/txauthor v1.0.1-0.20210703112718-54ce4c919e20
+	github.com/TheArcadiaGroup/firowallet/wallet/txrules v1.0.1-0.20210703112718-54ce4c919e20
+	github.com/TheArcadiaGroup/firowallet/wallet/txsizes v1.0.1-0.20210703112718-54ce4c919e20
 )
 
 replace (
