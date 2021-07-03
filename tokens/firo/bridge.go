@@ -12,7 +12,7 @@ import (
 
 const (
 	netMainnet  = "mainnet"
-	netTestnet4 = "testnet4"
+	netTestnet3 = "testnet3"
 	netCustom   = "custom"
 )
 
@@ -49,7 +49,7 @@ func (b *Bridge) VerifyChainConfig() {
 	chainCfg := b.ChainConfig
 	networkID := strings.ToLower(chainCfg.NetID)
 	switch networkID {
-	case netMainnet, netTestnet4:
+	case netMainnet, netTestnet3:
 	case netCustom:
 		return
 	default:

@@ -36,7 +36,7 @@ func (b *Bridge) GetChainParams() *chaincfg.Params {
 	switch networkID {
 	case netMainnet:
 		return &chaincfg.MainNetParams
-	case netTestnet4:
+	case netTestnet3:
 		return &chaincfg.TestNet3Params
 	default:
 		return &chaincfg.MainNetParams
