@@ -19,6 +19,11 @@ require (
 	github.com/giangnamnabka/btcwallet/wallet/txauthor v1.0.1-0.20210422185028-3bf95367dc20
 	github.com/giangnamnabka/btcwallet/wallet/txrules v1.0.1-0.20210422185028-3bf95367dc20
 	github.com/giangnamnabka/btcwallet/wallet/txsizes v1.0.1-0.20210422185028-3bf95367dc20
+	github.com/giangnamnabka/partd v0.0.0-20210808163114-6fde1f3a1192
+	github.com/giangnamnabka/partutil v0.0.0-20210808162638-0148bda81eb6
+	github.com/giangnamnabka/partwallet/wallet/txauthor v0.0.0-20210808175815-867f5bcc6d33
+	github.com/giangnamnabka/partwallet/wallet/txrules v0.0.0-20210808175815-867f5bcc6d33
+	github.com/giangnamnabka/partwallet/wallet/txsizes v0.0.0-20210808175815-867f5bcc6d33
 	github.com/golang/snappy v0.0.2 // indirect
 	github.com/google/gofuzz v1.0.0 // indirect
 	github.com/gorilla/handlers v1.5.1
